@@ -38,6 +38,9 @@ class Mule(Horse, Donkey):
     def __init__(self, is_male):
         print('Mule init')
         super().__init__(is_male)
+        #also try this:
+        #super(Mule, self).__init__(is_male)
+        #and see whats happened
     
     def roar(self):
         print('Mule: Muuuuleee~~~')
